@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let Nam = +(prompt("Nhập năm"));
+  if (Nam % 4 == 0) {
+    if (Nam % 100 == 0) {
+      if (Nam % 400 == 0) {
+        alert(Nam + " Năm nhuận");
+      } else {
+        alert(Nam + " Không phải năm nhuận");
+      }
+    } else {
+      alert(Nam + " Năm nhuận");
+    }
+  } else {
+    alert(Nam + " Không phải năm nhuận");
+  }
+</script>
+</body>
+</html>
